@@ -1,6 +1,6 @@
 Table Schema
 
-t1_user_active_min.csv
+t3_user_active_min.csv
 This table contains active minutes data logged after experiment started.
 Each row represents the total number of minutes spent on site for each user on a date.
 If a user never visited the site for a given date, there wouldn't be data for that uid on that date.
@@ -18,7 +18,7 @@ Each row represents the assignment information for a unique user.
   
 t3_user_active_min_pre.csv
 This table contains active minutes data before the experiment started.
-It has a similar format as t1, except the dt range can extend before the experiment start date.
+It has a similar format as t3, except the dt range can extend before the experiment start date.
 - uid: user ID
 - dt: date when corresponding active minutes are registered
 - active_mins: number of minutes spent on site for the date
